@@ -54,7 +54,12 @@
     },
     "linux": {
       "icon": "build/icons"
-    }
+    },
+    "publish": [
+      {
+        "provider": "github"
+      }
+    ]
   },
   "dependencies": {
     "vue": "^2.5.16",
